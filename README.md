@@ -1,4 +1,4 @@
-# Sentiment-Analysis on World Mental Health Day tweets
+# Sentiment-Analysis and Topic Modelling on World Mental Health Day tweets
 The trends of positive, negative, and neutral tweets are captured and presented in this project.
 In this project we have presented the sentiment of people from the World as a case study.
 It shows that people's feelings and thoughts about the Mental health situations.
@@ -10,3 +10,8 @@ DATASET : https://www.kaggle.com/datasets/meerapv/world-mental-health-data-tweet
 
 # Conclusion :
 This project aimed at analyzing the sentiments and emotions of the people on World Mental Health Day have been successfully conducted. To maintain the credibility of data and also the ease of extracting tweets of users, the Twitter platform has been chosen for the study. To have reasonable andgood useful data for the study.To have reasonable and good useful data for the study, the twitter most trending hashtags on World Mental Health Day were chosen from the world for this work.During the study, it was observed that majority tweeting about Mental Health Day with a positive sentiments.Similarly, while analysing the word clouds of different countries, it was concluded that people are tweeting words like Mental, health, people, Tomorrow, Health, awareness ,care, join with different emotions.This study provided a good analysis on sentiments and mind sets of people on Covid-19 and enabled us to understand that almost the same level of thinking of people all over the world.
+                                                                 In this unsupervised learning project, we utilize latent Dirichlet allocation (LDA) to model likely topics for a given tweet.
+
+We read tweets from Twitter using the API, then carry out the necessary preprocessings such as punctuation removal, tokenization, stemming, and lemmatization.
+
+We then proceed to use the powerful Gensim library to carry out the LDA; under both Bag-of-words and TF-IDF tweet representations, and while varying the key hyperparamter in topic modeling: The number of topics.
